@@ -1,0 +1,210 @@
+body,html
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-color: #282828;
+    border-bottom: 3px solid black;
+    box-shadow: 0px 0px 15px;
+    width:100%;
+    height:70px;
+    position:fixed;
+    z-index: 99999999;
+    top: 0px;
+}
+
+#photo
+{
+    width: 70%;
+    border-radius: 50%;
+    border: solid grey 6px;
+}
+
+
+h1
+{
+    text-align: center;
+}
+
+li
+{
+    display: inline-block;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+ul
+{
+    width: auto;
+    margin-top: none;
+    float: right;
+}
+
+a{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'open Sans', sans-serif;
+    font-size: 1.2vw;
+}
+
+a:hover
+{
+    color: #F0c330;
+}
+
+
+#pres{
+    margin-top: 90px;
+}
+
+#formation
+{
+    background-image: url("images/form.jpg");
+    background-attachment: fixed; /* parralax */
+    color: white;
+}
+
+#competences
+{
+    background-image: url("images/comp.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* parralax */
+}
+
+#cart
+{
+    margin-left: 20%;
+}
+
+
+h3
+{
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left:5%;
+    margin-top:10px;
+    font-family: cursive;
+    color: #39ca74;
+}
+
+h4
+{
+    text-align: center;
+}
+
+
+span{
+    color:#ffffff;
+    margin-left: 5%;
+}
+
+p
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 40px;
+    font-family: Gabriola
+}
+
+#mario
+{
+    width: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#bordeaux
+{
+    width: 20%;
+}
+
+
+#loisirs
+{
+    background-image: url("images/lois.png");
+    background-attachment: fixed; /* parralax */
+    color: white;
+}
+
+#epitech
+{
+    width:20%;
+}
+
+.etoile_epitech
+{
+    text-align: center;
+}
+
+#fac
+{
+    width:20%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.champi_fac
+{
+    text-align: center;
+}
+
+#lycée
+ {
+     width:10%;
+     margin-left: 2%;
+     margin-right: 2%;
+ }
+
+.piece_lycée
+{
+    text-align: center;
+}
+
+#facebook
+{
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+#twitter
+{
+    width: 35%;
+    margin-bottom: 5px;
+}
+
+#cv
+{
+    color: red;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 700px)
+{
+    h1{
+        font-size: 40px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+    #cart
+    {
+        margin-left: 0%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 700px)
+{
+    #cart
+    {
+        margin-left: 20%;
+    }
+}
+
